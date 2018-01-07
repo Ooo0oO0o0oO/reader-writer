@@ -113,7 +113,6 @@ int lock(int semid,int semnum){
 
 
 
-
     } else{
         //获取写锁
 

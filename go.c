@@ -25,7 +25,7 @@ int main(){
 
 
             if(fork() == 0){
-                if(execl("./main","main",NULL)<0){
+                if(execl("./writer","writer",NULL)<0){
                     perror("创建writer失败");
                 }
             }
